@@ -234,15 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test: 0
-  shoot:
-    m_Name: Shoot
-    m_Type: 0
-    m_ExpectedControlType: Axis
-    m_Id: c87361ac-eacd-4669-b11e-db8496e05df8
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
+  controls: {fileID: -944628639613478452, guid: e5a997c21e9bc3749a57af66be04827a, type: 3}
   test2: 0
 --- !u!1 &705507993
 GameObject:

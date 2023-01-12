@@ -12,10 +12,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public class @InputMaster : IInputActionCollection2, IDisposable
+public partial class @InputMaster : MonoBehaviour, IInputActionCollection2, IDisposable
 {
     public InputActionAsset asset { get; }
     public @InputMaster()

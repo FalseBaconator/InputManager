@@ -6,12 +6,12 @@ using UnityEngine.InputSystem;
 public class PlayerScript : MonoBehaviour
 {
     public int test;
-    public InputAction shoot;
+    public InputActionAsset controls;
     public int test2;
 
     private void Awake()
     {
-        shoot.performed += context => Shoot();
+        //controls.Player.Shoot.performed += context => Shoot();
     }
 
     void Shoot()
@@ -21,12 +21,12 @@ public class PlayerScript : MonoBehaviour
 
     private void OnEnable()
     {
-        shoot.Enable();
+        controls.Enable();
     }
 
     private void OnDisable()
     {
-        shoot.Disable();
+        controls.Disable();
     }
 
 }
